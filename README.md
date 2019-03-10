@@ -33,7 +33,7 @@ pkg> add ClickHouse
 
 ## Project Status
 
-The package is tested against Julia 1.0 and the nightly builds of the Julia `master` branch on Linux and macOS.
+The package is tested against Julia 1.0 and the nightly builds of the Julia `master` branch on Linux.
 
 ## Questions and Contributions
 
