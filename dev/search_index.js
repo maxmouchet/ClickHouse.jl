@@ -25,6 +25,30 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
+    "location": "client/#",
+    "page": "Client",
+    "title": "Client",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "client/#ClickHouse.ClickHouseClient",
+    "page": "Client",
+    "title": "ClickHouse.ClickHouseClient",
+    "category": "type",
+    "text": "ClickHouseClient(url::AbstractString; params...)\n\nExample\n\nclient = ClickHouseClient(\"http://localhost:8123\")\nclient = ClickHouseClient(\"http://localhost:8123\", user=\"...\", password=\"...\")\n\n\n\n\n\n"
+},
+
+{
+    "location": "client/#Client-1",
+    "page": "Client",
+    "title": "Client",
+    "category": "section",
+    "text": "ClickHouseClient"
+},
+
+{
     "location": "_index/#",
     "page": "Index",
     "title": "Index",
