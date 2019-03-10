@@ -2,7 +2,29 @@ struct ClickHouseClient
     url::URI
 end
 
-ClickHouseClient(url::AbstractString) = ClickHouseClient(URI(url))
+"""
+    ClickHouseClient(url::AbstractString; params...)
+
+# Example
+```julia
+client = ClickHouseClient("http://localhost:8123")
+client = ClickHouseClient("http://localhost:8123", user="...", password="...")
+```
+"""
+function ClickHouseClient(url::AbstractString; params...)
+    # TODO: Cleanup
+    url = URI(url)
+    url = URI(
+        scheme = url.scheme,
+        userinfo = url.userinfo,
+        host = url.host,
+        port = url.port,
+        path = url.path,
+        query = params,
+        fragment = url.fragment
+    )
+    ClickHouseClient(URI(url))
+end
 
 # ClickHouseClient()
 
