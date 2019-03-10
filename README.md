@@ -13,7 +13,7 @@ TODO. Julia client for the [ClickHouse](https://clickhouse.yandex/) column-orien
 ```julia
 using ClickHouse
 client = ClickHouseClient("http://localhost:8123")
-query(client, "SELECT timestamp, min, prb_id FROM ping_results LIMIT 10000")
+query(client, "SELECT col_a, col_b FROM table LIMIT 10000")
 ```
 
 ## Installation
