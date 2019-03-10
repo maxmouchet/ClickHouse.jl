@@ -1,0 +1,4 @@
+name = "ClickHouse"
+uuid = "212d6d54-436c-11e9-27d8-f17facaf9a93"
+authors = ["Maxime Mouchet <max@maxmouchet.com>"]
+version = "0.0.1"

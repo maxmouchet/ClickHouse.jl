@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+build.log
+*.so
+Manifest.toml
+docs/build/
+docs/Manifest.toml
+docs/src/examples
+benchmark/**/*.csv
