@@ -1,0 +1,6 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+
+[compat]
+Documenter = "~0.20"
