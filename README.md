@@ -10,6 +10,12 @@
 
 TODO. Julia client for the [ClickHouse](https://clickhouse.yandex/) column-oriented database.
 
+```julia
+using ClickHouse
+client = ClickHouseClient("http://localhost:8123")
+query(client, "SELECT timestamp, min, prb_id FROM ping_results LIMIT 10000")
+```
+
 ## Installation
 
 The package can be installed with the Julia package manager.

@@ -1,5 +1,15 @@
 module ClickHouse
 
-greet() = print("Hello World!")
+using CSV
+using HTTP
 
-end # module
+import HTTP.URIs: URI
+
+export
+    # core.jl
+    ClickHouseClient,
+    query
+
+include("core.jl")
+
+end
