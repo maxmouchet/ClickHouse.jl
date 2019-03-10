@@ -8,13 +8,8 @@
 
 ## Introduction
 
-TODO. Julia client for the [ClickHouse](https://clickhouse.yandex/) column-oriented database.
-
-```julia
-using ClickHouse
-client = ClickHouseClient("http://localhost:8123")
-query(client, "SELECT col_a, col_b FROM table LIMIT 10000")
-```
+Julia client for the [ClickHouse](https://clickhouse.yandex/) column-oriented database.  
+Query results are returned as [DataFrames](https://github.com/JuliaData/DataFrames.jl).
 
 ## Installation
 
