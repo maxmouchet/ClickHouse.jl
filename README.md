@@ -6,6 +6,11 @@
 |:---------------------------------------:|:-----------------------------:|
 | [![][docs-stable-img]][docs-stable-url] [![][docs-dev-img]][docs-dev-url]| [![][travis-img]][travis-url] [![][codecov-img]][codecov-url] |
 
+## Status
+
+This package is not maintained anymore, and does not seems to work with recent CSV.jl versions.  
+Please use another package, such as [JuliaDatabases/ClickHouse.jl](https://github.com/JuliaDatabases/ClickHouse.jl).
+
 ## Introduction
 
 Julia client for the [ClickHouse](https://clickhouse.yandex/) column-oriented database.  
